@@ -7,7 +7,7 @@ This project is build with convolutional autoencoder using Keras on Tensorflow. 
 * Since MNIST dataset of hand written digits has clean images, we generate synthetic gausian noise through np.random.normal, add it to the images.
 * After adding the noise, values in image matrix are no longer between 0 & 1. Hence, we clip the images between 0, 1
 
-![Noice Induced Images](/Images/Noice_Images.png)
+![Noise Induced Images](/Images/Noice_Images.png)
 
 ## Autoencoder:
 
